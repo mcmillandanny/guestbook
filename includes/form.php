@@ -1,6 +1,11 @@
 <form name="guest" action="addcomment.php" method="post">
     <div class=form-group>
-        <input type="text" name="name" placeholder="Name" />
+        <input type="text" name="name" placeholder="First Name" />
+        <br/>
+        <input type="text" name="lastName" placeholder="Last Name" />
+    </div>
+    <div>
+        <input  type="text" name="phone" placeholder="Phone" />
     </div>
     <div class=form-group>
         <input type="text" name="email" placeholder="Email" />
