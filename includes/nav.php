@@ -1,8 +1,13 @@
+<ul>
+     <?php
+    $urls = array (
+        'Home' => '/',
+        'Gustbook' => 'guestbook.php'
+    );
 
- <nav>
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="guestbook.php">Guestbook</a></li>
-        <li><a href="addcomment.php">Add Comment</a></li>
-    </ul>
-</nav>
+    foreach ($urls as $name => $url) {
+        echo '<li><a href ="'.$url.'">'.$name.'</a></li>';
+    }
+
+     ?>
+</ul>

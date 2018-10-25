@@ -8,8 +8,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
-<?php include_once ('./configs/config-db-con.php');?>
-<?php include_once ('./configs/config-post.php');?>
 <body>
 <?php include_once ('./includes/nav.php');?>
 <?php echo "I am the header!";?>
