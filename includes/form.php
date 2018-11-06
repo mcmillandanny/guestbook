@@ -1,4 +1,6 @@
-<form name="guest" action="addcomment.php" method="post">
+
+<img src="assets/Images/tom.jpg" alt="tom" class="tom-image">
+<form class='form-wrapper' name="guest" action="addcomment.php" method="post">
     <div class=form-group>
         <input type="text" name="name" placeholder="First Name" />
         <br/>
