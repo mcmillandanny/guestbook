@@ -2,8 +2,7 @@
         <?php
         $urls = array (
             'Home' => '/',
-            'About' => 'about.php',
-            'Gustbook' => 'guestbook.php'
+            'Reservations' => 'guestbook.php'
             
         );
 

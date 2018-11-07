@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/stylesheet.css" />
 </head>
 <body>
-<div class="header-wrapper">
-    <img src="assets/Images/myspace.png" alt="Myspace-logo" class="header-logo" />
-<?php include_once ('./includes/nav.php');?>
-</div>
+    <div class="header-wrapper">
+        <h1 class="header-title">My Table</h1>
+    <?php include_once ('./includes/nav.php');?>
+    </div>
